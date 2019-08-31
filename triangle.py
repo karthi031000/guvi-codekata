@@ -5,7 +5,3 @@ if(a + b > c):
       print("yes")
     else:
      print("no")
-  else:
-    print("no")
-else:
-  print("no")
