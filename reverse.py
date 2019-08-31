@@ -1,5 +1,5 @@
 word = input()
 splitting = word.split()
-reversing = word[::-1]
-joining = " ".join()
+reversing = splitting[::-1]
+joining = " ".join(reversing)
 print(joining)
