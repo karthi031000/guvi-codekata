@@ -10,12 +10,12 @@ def swap(lst,n):
     return lst1
 n = int(input())
 lst = list(map(int,input().split()))
-if (n%2 != 0):
+if(n % 2 != 0):
     swap(lst,n-1)
     d = lst[-1]
     lst1.append(d)
 else:
     swap(lst,n)
 s = [str(i) for i in lst1]
-res = int("".join(s))
+res = "".join(s)    
 print(res)
