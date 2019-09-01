@@ -17,5 +17,5 @@ if(n % 2 != 0):
 else:
     swap(lst,n)
 s = [str(i) for i in lst1]
-res = "".join(s)    
+res = " ".join(s)    
 print(res)
