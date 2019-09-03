@@ -1,3 +1,5 @@
 int(input())
 lst = list(map(int,input().split()))
-print(min(lst),max(lst))
+a = min(lst)
+b = max(lst)
+print(a,b)
