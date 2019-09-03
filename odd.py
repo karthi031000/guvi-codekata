@@ -1,6 +1,5 @@
-n = int(input())
-m = int(input())
-sum = a + b
+n,m = map(int,input().split())
+sum = n + m
 res = sum % 2
 if(res == 0):
   print("even")
