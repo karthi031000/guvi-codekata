@@ -5,5 +5,5 @@ sqr = math.sqrt(prod)
 res = prod * prod
 if(res == prod):
   print("yes")
- else:
+else:
   print("no")
