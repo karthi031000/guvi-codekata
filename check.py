@@ -4,5 +4,5 @@ for i in range(0,len(lst)):
   if(lst[i] == k):
     print("yes")
     break
-  else:
-    print("no")
+else:
+  print("no")
