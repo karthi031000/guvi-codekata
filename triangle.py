@@ -3,5 +3,5 @@ if(a + b > c):
   if(a + c > b):
     if(b + c > a):
       print("yes")
-    else:
-     print("no")
+else:
+  print("no")
