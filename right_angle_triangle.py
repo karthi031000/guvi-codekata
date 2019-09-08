@@ -5,5 +5,5 @@ opp = b*b
 res = opp + adj
 if(hyp == res):
   print("yes")
- else:
+else:
   print("no")
